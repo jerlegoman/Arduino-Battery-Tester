@@ -1,8 +1,8 @@
 /*
   ReadAnalogVoltage and
   Battery Tester
-  Reads an analog input on pin 0, converts it to voltage, and prints the result to the serial monitor.
-  Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.
+  Reads an analog input on pin A2, converts it to voltage, and prints the result to the serial monitor.
+  Attach the center pin of a potentiometer to pin A2, and the outside pins to +5V and ground.
   If the voltage is greater than 1.40 it will light up the green LED indicating that the battery is Good
   If the voltage is less than 1.40 and higher than 1.28 then, 
   I built this on an ATTINY85 chip from atmel that i got from amazon.com 
